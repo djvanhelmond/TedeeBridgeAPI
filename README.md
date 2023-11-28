@@ -9,8 +9,10 @@ This is a first and rough cut. The demo.py has an example of how to use the libr
 - Cleaning up old webhooks
 - Registering new webhooks
 - Discovering locks
+- Locking / Unlocking / Pulling locks from the Python interpreter
 - "lock-status-changed" webhook
 - Local webserver
+- Locking / Unlocking / Pulling locks via HTTP requests
 
 ## What doesn't work
 

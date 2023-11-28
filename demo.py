@@ -10,7 +10,7 @@ bridgeToken_1 = "GT34RG3rTrwW"                             # Token for the Tedee
 bridgeIP_2 = "10.0.0.11"                                   # IP Address for the Tedee Bridge
 bridgeToken_2 = "sD4fwEtyGFed"                             # Token for the Tedee Bridge
 
-tc = tedeeCommon(hostname ,serverPort, logging.DEBUG)      # ERROR < INFO < DEBUG
+tc = tedeeCommon(hostname, serverPort, logging.DEBUG)      # ERROR < INFO < DEBUG
 
 tc.loadBridge(bridgeIP_1, bridgeToken_1)
 tc.loadBridge(bridgeIP_2, bridgeToken_2)                    # You can load multiple bridges
